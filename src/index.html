@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>主页</title>
+		<!-- 主体 -->
+		<link rel="stylesheet" type="text/css" href="css/index/index.css"/>
+		<!-- 轮播图 -->
+		<link rel="stylesheet" type="text/css" href="css/index/slide.css"/>
+		<!-- 网站内容 -->
+		<link rel="stylesheet" type="text/css" href="css/index/section.css"/>
+		<!-- 网站底部 -->
+		<link rel="stylesheet" type="text/css" href="css/index/footer.css"/>
+		
+		<script src="js/animate.tools.0.0.3.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 轮播图效果 -->
+		<script src="js/index/slide.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+	<body>
+		<!-- 顶部菜单 -->
+		<div class="topMenu">
+			
+		</div>
+		
+		<!-- 网站头部 -->
+		<div id="header">
+			
+		</div>
+		
+		<!-- 网站导航栏 -->
+		<div class="mainNav">
+			
+		</div>
+		
+		
+		<!-- 中间的轮播图 -->
+		<div class="slide_show" id="slide_show">
+			<div class="indexW">
+				<div id="index_slide" class="slide_wrap">
+					<ol id="ol">
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_1.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_2.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_3.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_4.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_5.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_6.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_7.jpg" ></a></li>
+						<li><a href="javascript:;;" class="fore_pic"><img src="img/index/slide/slide_8.jpg" ></a></li>
+					</ol>
+				</div>
+				<div class="rSide">
+					<a href="javascript:;;" class="r-img1 r-img"><img src="img/index/slide/r_side_1.jpg" alt="世界友谊日,我的零食分你一半,买1送1"></a>
+					<a href="javascript:;;" class="r-img2 r-img"><img src="img/index/slide/r_side_2.jpg" alt="六月黄大闸蟹 198元1只"></a>
+					<a href="javascript:;;" class="r-img3 r-img"><img src="img/index/slide/r_side_3.jpg" alt="对症“夏”药:吃苦的时候到了"></a>
+				</div>
+				<!-- 轮播图右边的小广告 -->
+				<script type="text/javascript">
+					$(function(){
+						$(".rSide").find("a").mouseenter(function(){
+							$(this).css("opacity",1).siblings().css("opacity",.7)
+						})
+						$(".rSide").find("a").mouseleave(function(){
+							$(this).css("opacity",1).siblings().css("opacity",1)
+						})
+					})
+				</script>
+			</div>
+			<ul>
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+			</ul>
+		</div>
+		
+		
+		<!-- 购物模块一 -->
+		<div class="bestbuy">
+			
+		</div>
+		<div class="clear"></div>
+		
+		<!-- 限时抢购模块 -->
+		<div class="timedbuy">
+			<div class="timedbuy_left">
+				<div class="ttop">
+					<span></span>
+					<p class="t_jd">限时抢购</p>
+					<p class="tt1">还剩</p>
+					<p></p>
+					<dl>
+						<dd class="hour">00</dd>
+						<!-- <dd>0</dd> -->
+						<dd>时</dd>
+						<dd class="min">00</dd>
+						<!-- <dd>0</dd> -->
+						<dd>分</dd>
+						<!-- <dd>0</dd> -->
+						<dd class="second">00</dd>
+						<dd>秒</dd>
+					</dl>
+					<p></p>
+					<p class="tt2">结束</p>
+					<p class="tright"><a href="javascript:;;" class="t_next">下期预告</a></p>
+				</div>
+				<div class="tbList">
+					<ul>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;"><img src="img/index/section/rushbuy1.jpg" alt=""></a>
+							</div>
+							<p class="title-a">
+								立特王  立特王葵花籽油 5L
+							</p>
+							<p class="pt-price">
+								¥78
+							</p>
+							<a href="javascript:;;" class="p_qg_btn">抢购</a>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;"><img src="img/index/section/rushbuy2.jpg" alt=""></a>
+							</div>
+							<p class="title-a">
+								龙宝龙Le Blanc 葵花籽油 5L
+							</p>
+							<p class="pt-price">
+								¥108
+							</p>
+							<a href="javascript:;;" class="p_qg_btn">抢购</a>
+						</li>
+						<li class="tbover">
+							<div class="pImg">
+								<a href="javascript:;;"><img src="img/index/section/rushbuy3.jpg" alt=""></a>
+								<span></span>
+							</div>
+							<p class="title-a">
+								大希地 原肉整切西冷牛排5片套餐 650g
+							</p>
+							
+						</li>
+						<li class="tbover">
+							<div class="pImg">
+								<a href="javascript:;;"><img src="img/index/section/rushbuy4.jpg" alt=""></a>
+								<span></span>
+							</div>
+							<p class="title-a">
+								全味道 欢乐棒（抹茶味) 160g
+							</p>
+							
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;"><img src="img/index/section/rushbuy5.jpg" alt=""></a>
+							</div>
+							<p class="title-l">敬请期待</p>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="rSide2">
+				<a href="javascript:;;"><img src="img/index/rImg2.png"></a>
+			</div>
+		</div>
+		
+		<!---- 水果模块 ---->
+		<div class="fresh">
+			<div class="category">
+				<div class="mTitle">
+					<span></span>
+					<a href="javascript:;;">水果 </a>
+					<a href="javascript:;;"> 蔬菜</a>
+				</div>
+				<div class="lCont">
+					<a href="javascript:;;">
+						<img src="img/index/section/sf_fresh.jpg" >
+					</a>
+				</div>
+			</div>
+			<div class="sfRight">
+				<div class="subCont">
+					<ul class="pList">
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="果缤纷 河北水蜜桃3斤装 单果：180g+">
+									<img src="img/index/section/fresh_1.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">果缤纷 河北水蜜桃3斤装 单果：180g+</p>
+							<p class="a_price">
+								<span>¥</span>
+								45
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="果缤纷 越南红心火龙果5斤  单果：300~450g 约5~7个">
+									<img src="img/index/section/fresh_2.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">果缤纷 越南红心火龙果5斤  单果：300~450g 约5~7个</p>
+							<p class="a_price">
+								<span>¥</span>
+								58
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="果缤纷 云南蒙自甜石榴3斤装 单果：200g~250g">
+									<img src="img/index/section/fresh_3.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">果缤纷 云南蒙自甜石榴3斤装 单果：200g~250g</p>
+							<p class="a_price">
+								<span>¥</span>
+								58
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="红润佳 黄金蜜桃礼盒 礼盒装170至210克12颗">
+									<img src="img/index/section/fresh_4.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">红润佳 黄金蜜桃礼盒 礼盒装170至210克12颗</p>
+							<p class="a_price">
+								<span>¥</span>
+								69.9
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="百事兴 山东海阳 网纹蜜瓜4~5斤（1~2枚装）鲁厚甜/静冈 2~2.5kg">
+									<img src="img/index/section/fresh_5.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">百事兴 山东海阳 网纹蜜瓜4~5斤（1~2枚装）鲁厚甜/静冈 2~2.5kg</p>
+							<p class="a_price">
+								<span>¥</span>
+								29.9
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="山东蒙阴黄毛蟠桃约9到12个 2.25kg">
+									<img src="img/index/section/fresh_6.jpg">
+								 </a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">山东蒙阴黄毛蟠桃约9到12个 2.25kg</p>
+							<p class="a_price">
+								<span>¥</span>
+								59.9
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="云源 云南阳光玫瑰香印青提一级果1斤装 500g">
+									<img src="img/index/section/fresh_7.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">云源 云南阳光玫瑰香印青提一级果1斤装 500g</p>
+							<p class="a_price">
+								<span>¥</span>
+								79
+							</p>
+						</li>
+						<li>
+							<div class="pImg">
+								<a href="javascript:;;" title="糖宝果鲜 正宗d197猫山王榴莲 3.5_4.5斤">
+									<img src="img/index/section/fresh_8.jpg">
+								</a>
+								<div class="gBtn">
+									<a href="javascript:;;">加入购物车</a>
+								</div>
+							</div>
+							<p class="title-a">糖宝果鲜 正宗d197猫山王榴莲 3.5_4.5斤</p>
+							<p class="a_price">
+								<span>¥</span>
+								388
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="redge">
+					<ul class="rHot">
+						<li><a href="javascript:;;">瓜类</a></li>
+						<li><a href="javascript:;;">梨</a></li>
+						<li><a href="javascript:;;">苹果</a></li>
+						<li><a href="javascript:;;">榴莲</a></li>
+						<li><a href="javascript:;;">芒果</a></li>
+						<li><a href="javascript:;;">桃</a></li>
+						<li><a href="javascript:;;">橙</a></li>
+						<li><a href="javascript:;;">荔枝</a></li>
+						<li><a href="javascript:;;">火龙果</a></li>
+					</ul>
+					<div class="clear"></div>
+					<div class="rImg">
+						<a href="javascript:;;">
+							<img src="img/index/section/r_fresh_1.jpg">
+						</a>
+						<div class="rbutton">
+							<a href="javascript:;;"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span class="clear"></span>
+		</div>
+		
+		<!-- 页面底部 -->
+		<div id="footer">
+
+		</div>
+		<script type="text/javascript">
+			$(()=>{
+				$(".topMenu").load("./index_top.html");
+				$("#header").load("./index_header.html");
+				$(".mainNav").load("./index_nav.html");
+				$(".bestbuy").load("./index_buy.html");
+				$("#footer").load("./index_footer.html");
+			})
+		</script>
+		<!-- 页面旁边的几个功能模块 -->
+		<div class="side_wrap">
+			<div class="side_pane1">
+				<div class="side-c">
+					<a href="javascript:;;" class="kefuicon"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="side_v"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="s-cart"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="s-guang"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="s-app"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="s-promote"></a>
+				</div>
+				<div class="side-c">
+					<a href="javascript:;;" class="s-top"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

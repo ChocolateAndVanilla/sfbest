@@ -1,0 +1,488 @@
+/* 购买模块1 */
+.bestbuy{
+	width:1190px;
+	float: left;
+	margin-top: 35px;
+	margin-left:7.9%;
+}
+
+/*****************左边**********/
+.bestbuy .b_left{
+	width: 945px;
+	float: left;
+	overflow: hidden;
+	display: block;
+	/* background: #0099FF; */
+}
+.bestbuy h2{
+	color: #333333;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: normal;
+	padding: 0 0 12px 3px;
+}
+.bestbuy h2 span{
+	width: 188px;
+	height: 14px;
+	display: inline-block;
+	background: url(../../img/index/index_icon_new.png) no-repeat -18px -333px;
+	overflow: hidden;
+	margin: 0 0 0 15px;
+}
+.bestbuy .b_left ul{
+	float: left;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+}
+.bestbuy .b_left ul li{
+	float: left;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	height: 258px;
+	width: 235px;
+	position: relative;
+	overflow: hidden;
+}
+.bestbuy .b_left ul li p{
+	margin-left: 12px;
+	font-size: 14px;
+	color: #323232;
+	height: 14px;
+	line-height: 14px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.bestbuy .b_left ul li .a_price{
+	font-size: 16px;
+	color: #f33f00;
+	font-weight: bolder;
+	font-family: "microsoft yahei";
+	margin-left: 12px;
+	overflow: hidden;
+	height: 16px;
+	line-height: 16px;
+	padding-top: 10px;
+}
+.bestbuy .b_left ul li .a_price span{
+	font-style: normal;
+	font-size: 12px;
+}
+.bestbuy .b_left ul li img{
+	width: 204px;
+	height: 204px;
+	/* float: right; */
+	margin-top: 4px;
+	margin-left: 12px;
+}
+.bestbuy .b_left ul li .gBtn{
+	background: #76AC25;
+	width: 160px;
+	height: 24px;
+	border-radius: 2px;
+	position: absolute;
+	cursor: pointer;
+	top: 260px;
+	margin-left: 35px;
+	z-index: 4;
+	transition: all .2s linear;
+	
+}
+.bestbuy .b_left ul li .gBtn a{
+	margin: 0 auto;
+	height: 24px;
+	width: 60px;
+	background: url(../../img/index/section/indexsprite.png) no-repeat -66px -177px;
+	padding-left: 20px;
+	line-height: 24px;
+	display: block;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+}
+.bestbuy .b_left ul li:hover .gBtn{
+	transform: translateY(-38px)
+}
+.bestbuy .b_left ul li:hover img{
+	opacity: 0.6;
+}
+
+/***********模块一右边的新闻推荐***********/
+.bestbuy .rSide1{
+	width:222px;
+	height: 517px;
+	border: 1px solid #E8E8E8;
+	float: right;
+}
+.bestbuy .rSide1 .rImg1{
+	height: 300px;
+	width: 222px;
+	text-align: center;
+	overflow: hidden;
+}
+.bestbuy .rSide1 .rImg1 img{
+	height: 300px;
+	width: 220px;
+}
+.bestbuy .rSide1 .sfNews{
+	margin: 0 auto;
+	width: 202px;
+	overflow: hidden;
+}
+.bestbuy .rSide1 .sfNews a:hover{
+	color: #76AC25;
+}
+.bestbuy .rSide1 .sfNews .rTitle{
+	height: 14px;
+	line-height: 14px;
+	border-bottom: 1px dotted #dbdbdb;
+	padding: 15px 0 10px 0;
+	overflow: hidden;
+}
+.bestbuy .rSide1 .sfNews .rTitle h2{
+	color:#323232;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	float:left;
+	font-weight: normal;
+}
+
+.bestbuy .rSide1 .sfNews .rTitle .more{
+	float: right;
+	padding-top: 2px;
+	display: block;
+}
+.bestbuy .rSide1 .sfNews ul{
+	margin: 8px auto;
+	height: 156px;
+	overflow: hidden;
+}
+.bestbuy .rSide1 .sfNews ul li{
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	color: #666666;
+	/* background: #0099FF; */
+}
+/*****************购物模块一结束************/
+
+
+/*****************限时抢购开始************/
+.timedbuy{
+	width:1200px;
+	float: left;
+	margin-top: 35px;
+	margin-left:7.9%;
+	/* background: #0099FF; */
+}
+.timedbuy .timedbuy_left{
+	width: 945px;
+	height: 360px;
+	float: left;
+	/* background: #0099FF; */
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.timedbuy .timedbuy_left .ttop{
+	background: #ff7031;
+	height: 28px;
+	line-height: 28px;
+	padding: 16px 0 16px 20px;
+	border-top: 1px solid #e5e5e5;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	color: #FA6400;
+}
+.timedbuy .timedbuy_left .ttop span{
+	width: 31px;
+	height: 34px;
+	background: url(../../img/index/section/paid_bg.png) no-repeat -39px -266px;
+	margin-left: 12px;
+	margin-top: -4px;
+	float: left;
+}
+.timedbuy .timedbuy_left .ttop p{
+	/* margin-right: 10px; */
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+.timedbuy .timedbuy_left .ttop .t_jd{
+	background: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	margin-top: -2px;
+	width: 111px;
+	height:28px;
+}
+.timedbuy .timedbuy_left .ttop .tt1,.tt2{
+	color: #ffe4c6;
+}
+.timedbuy .timedbuy_left .ttop .tt1{
+	font-size: 12px;
+	padding: 0 10px 0 10px;
+}
+.timedbuy .timedbuy_left .ttop dd{
+	float: left;
+	text-align: center;
+	color: #ffe4c6;
+	/* font-size:12px; */
+	margin-right:2px;
+}
+.timedbuy .timedbuy_left .ttop dd.hour,.min,.second{
+	background: url(../../img/index/section/paid_bg.png) no-repeat -185px -217px;
+	width: 38px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 26px;
+	line-height: 40px;
+	margin-top: -6px;
+}
+.timedbuy .timedbuy_left .ttop .tright{
+	float: right;
+	width: 100px;
+	height: 28px;
+	text-align: center;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.timedbuy .timedbuy_left .ttop .tright a{
+	display: block;
+	color: white;
+	margin-top: 0;
+}
+.timedbuy .timedbuy_left .tbList{
+	border: 1px solid #E5E5E5;
+	margin-top: 0;
+}
+.timedbuy .timedbuy_left .tbList ul li{
+	float: left;
+	width: 166px;
+	padding: 13px 0 18px 19px;
+	position: relative;
+	overflow: hidden;
+}
+.timedbuy .timedbuy_left .tbList .pImg{
+	width: 166px;
+	height: 166px;
+	margin-bottom: 7px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.timedbuy .timedbuy_left .tbList .title-a{
+	font-size: 14px;
+	overflow: hidden;
+	height: 18px;
+	line-height: 18px;
+}
+.timedbuy .timedbuy_left .tbList .pt-price{
+	font-size: 14px;
+	color:#F33F00;
+	font-weight: bolder;
+}
+.timedbuy .timedbuy_left .tbList .p_qg_btn{
+	display: block;
+	margin-top: 16px;
+	font-size: 14px;
+	height: 28px;
+	text-align: center;
+	background: #FF7031;
+	line-height: 28px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.timedbuy .timedbuy_left .tbList .tbover span{
+	position: absolute;
+	background: url(../../img/index/section/index_new.png);
+	width: 132px;
+	height: 54px;
+	top: 70px;
+	left: 25px;
+	z-index: 54px;
+}
+.timedbuy .timedbuy_left .tbList .tbover img{
+	opacity: 0.7;
+}
+.timedbuy .timedbuy_left .tbList .title-l{
+	font-size: 16px;
+	color: #F14431;
+	font-weight: bolder;
+}
+.timedbuy .rSide2{
+	float: right;
+	width: 222px;
+	height: 330px;
+	margin-right: 12px;
+	overflow: hidden;
+}
+/************限时抢购结束*****************/
+
+/************水果模块开始*******************/
+.fresh{
+	width: 1226px;
+	margin-top: 30px;
+	/* background: #0099FF; */
+	margin-left: 6.9%;
+	position: relative;
+	top: 30px;
+}
+.fresh .category{
+	float: left;
+	width:250px;
+	overflow: hidden;
+	
+}
+.fresh .category .mTitle{
+	width: 240px;
+	height: 50px;
+	background: #76AC25;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	border-top-left-radius: 8px;
+}
+.fresh .category .mTitle:hover{
+	/* background: #9ED649; */
+	background: rgba(118,172,37,.8);
+}
+.fresh .category .mTitle span{
+	background: url(../../img/index/index_icon_new.png) no-repeat -97px -295px;
+	width: 15px;
+	height: 16px;
+	float: left;
+	margin:16px 8px 0 40px;
+}
+.fresh .category .mTitle a{
+	float: left;
+	color: #FFFFFF;
+	margin: 16px 8px 0px 20px;
+}
+
+.fresh .category .lCont{
+	width: 250px;
+	height: 420px;
+	overflow: hidden;
+}
+.fresh .category .lCont img{
+	width: 250px;
+	height: 420px;
+}
+.fresh .sfRight{
+	position: relative;
+	float: left;
+	width: 944px;
+	border-top: 1px solid #adcd7c;
+}
+.fresh .sfRight .subCont{
+	padding: 7px 10px 9px 10px;
+	width: 710px;
+	border-bottom: 1px solid #f4f4f4;
+	float: left;
+}
+.fresh .sfRight .subCont .pList li{
+	position: relative;
+	padding: 8px;
+	width: 160px;
+	z-index: 1;
+	float: left;
+}
+.fresh .sfRight .subCont .pList li .pImg{
+	margin-bottom: 10px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	position: relative;
+}
+.fresh .sfRight .subCont .pList li .pImg .gBtn{
+	background: #76AC25;
+	width: 160px;
+	height: 24px;
+	border-radius: 2px;
+	position: absolute;
+	cursor: pointer;
+	top: 160px;
+	z-index: 4;
+	transition: all .2s linear;
+}
+.fresh .sfRight .subCont .pList li .pImg .gBtn a{
+	margin: 0 auto;
+	height: 24px;
+	width: 60px;
+	background: url(../../img/index/section/indexsprite.png) no-repeat -66px -177px;
+	padding-left: 20px;
+	line-height: 24px;
+	display: block;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+}
+.fresh .sfRight .subCont .pList li:hover .pImg .gBtn{
+	transform: translateY(-24px)
+}
+.fresh .sfRight .subCont .pList li .title-a{
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.fresh .sfRight .subCont .pList li .a_price{
+	font-size: 16px;
+	margin-left: 0;
+	padding-top: 6px;
+	color: #F33F00;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	font-weight: bolder;
+}
+.fresh .sfRight .subCont .pList li .a_price span{
+	font-size: 12px;
+}
+
+.fresh .sfRight .redge{
+	width: 214px;
+	height: 469px;
+	float: left;
+	background: #F4F4F4;
+	overflow: hidden;
+}
+.fresh .sfRight .redge .rHot{
+	margin: 25px 0 0 15px;
+	height: 189px;
+	overflow: hidden;
+}
+.fresh .sfRight .redge .rHot li{
+	margin: 4px;
+	height: 55px;
+	width: 55px;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;line-height: 55px;
+	float: left;
+	background: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.fresh .sfRight .redge .rHot li:hover{
+	background: #76AC25;
+}
+.fresh .sfRight .redge .rHot li:hover a{
+	color: #FFFFFF;
+}
+.fresh .sfRight .redge .rImg{
+	margin-top: 25px;
+}
+.fresh .sfRight .redge .rbutton{
+	margin: -166px 0 0 15px;
+	background: url(../../img/index/index_icon_new.png) no-repeat -204px 0;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	cursor: pointer;
+}
+.fresh .sfRight .redge .rImg:hover .rbutton{
+	background: url(../../img/index/index_icon_new.png) no-repeat -204px -33px;
+}
+/************水果模块结束*******************/

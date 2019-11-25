@@ -1,0 +1,227 @@
+*{margin: 0;padding: 0;}
+html,body{height: 100%;width: 100%}
+body{color: #515151;font: 12px/150% arial,verdana,"宋体";height: 100%;width: 100%;background: #F5F5F5;}
+ul{list-style: none;}
+a{text-decoration: none;color: #666666;}
+.clear{
+	clear: both;
+	padding: 0;
+	margin: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	display: block;
+}
+
+/****************头部************/
+.header{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header img{
+	margin: 10px 0;
+	float: left;
+}
+.header span{
+	margin: 10px 0;
+	float: left;
+	padding-left: 3px;
+	line-height: 70px;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+}
+
+/**************头上的标签**************/
+.tabBox{
+	width: 666px;
+	margin: 0 auto;
+	height: 37px;
+	padding-left: 333px;
+}
+.tabBox .reg_show{
+	display: block;
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	width: 163px;
+	height: 38px;
+	/* position: relative;
+	top: 1px; */
+	line-height: 38px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background: url(../img/register/tabbg.jpg) no-repeat left top;
+}
+.tabBox .login{
+	width: 130px;
+	float: right;
+	padding-top:14px;
+	font-size: 12px;
+	color: #565656;
+}
+.tabBox .login a{
+	color: #6e9b0c;
+}
+
+/***************注册页面主体*************/
+.reg_main{
+	width: 960px;
+	min-height: 490px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border-top: 1px solid #d5d5d5;
+	padding: 45px 0 0 40px;
+}
+.reg_main ul{
+	background: url(../img/register/pic_10.png) no-repeat 460px 0;
+	/* position: relative;
+	left: 0;
+	top:0; */
+}
+.reg_main ul li{
+	height: 38px;
+}
+.reg_main ul li label{
+	display: block;
+	width: 118px;
+	font-size: 14px;
+	color: #515151;
+	text-align: right;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+}
+.reg_main ul li label font{
+	color: red;
+}
+.reg_main ul li span.regM{
+	width: 268px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #cdcdcd;
+	display: block;
+	float: left;
+}
+.reg_main ul li span input{
+	outline: none;
+	display: block;
+	float: left;
+	width: 228px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	color: #515151;
+	padding: 0 5px;
+}
+.reg_main ul li.regUname{
+	margin-bottom: 30px;
+}
+.reg_main ul li.regUcpsw{
+	margin-bottom: 30px;
+}
+.reg_main ul li span em{
+	width: 23px;
+	height: 36px;
+	background: url(../img/register/icon4.jpg) no-repeat center;
+	float: left;
+	display: block;
+}
+.reg_main ul li #uchk{
+	border: 1px solid #CDCDCD;
+	width: 58px;
+	height: 36px;
+}
+.reg_main ul li .codeTitle{
+	width: 86px;
+	line-height: 36px;
+}
+.reg_main ul li#agreeM{
+	padding-left: 38px;
+	height: 38px;
+}
+.reg_main ul li .agree{
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 29px;
+	display: block;
+}
+.reg_main ul li .agree input{
+	width: 12px;
+	height: 12px;
+	margin-left: 38px;
+	vertical-align: middle;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+.reg_main ul li .agree font:hover{
+	color: #76AC25;
+	text-decoration: underline;
+}
+.reg_main ul li.codeChk{
+	margin-bottom: 30px;
+}
+.reg_main ul li.codeChk img{
+	margin-left: 10px;
+}
+.reg_main ul li .codeTitle a:hover{
+	color: #76AC25;
+	text-decoration: underline;
+}
+.reg_main ul li.safe{
+	color: #666666;
+	padding-top: 6px;
+	padding-left: 191px;
+}
+.reg_main ul li.safe font{
+	float: left;
+	display: block;
+}
+.reg_main ul li.safe em{
+	background: #c4c4c4;
+	font-family: "宋体";
+	display: block;
+	width: 34px;
+	margin-right: 2px;
+	float: left;
+	text-align: center;
+}
+.reg_main ul li button{
+	width: 271px;
+	height: 38px;
+	float: left;
+	margin-left: 88px;
+	background: #6E9B0C;
+	color: #FFFFFF;
+	font-size: 16px;
+	border: none;
+	border-radius: 2px;
+}
+.reg_main ul li button:hover{
+	background: #91C61E;
+	cursor: pointer;
+}
+
+.reg_main .regMore{
+	border-top: 1px dotted #DCDCDC;
+	width: 930px;
+	margin-top: 45px;
+}
+.reg_main .regMore img{
+	margin-top: 20px;
+}
+.reg_main .regMore a:hover{
+	color: #76AC25;
+	text-decoration: underline;
+}
+.footer{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+.footer span a:hover{
+	text-decoration: underline;
+}
